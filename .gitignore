@@ -6,3 +6,4 @@ formatter/test.txt
 .idea/misc.xml
 .idea/modules.xml
 .idea/workspace.xml
+output/*

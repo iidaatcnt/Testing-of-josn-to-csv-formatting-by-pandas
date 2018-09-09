@@ -31,7 +31,7 @@ def export_to_csv_format():
               "Age",
               "Exp",
               "College"]
-    with open('output001.csv', 'w', newline='') as csvfile:
+    with open('output/output001.csv', 'w', newline='') as csvfile:
         csvwriter = csv.writer(csvfile)
         csvwriter.writerow(header)
         csvwriter.writerow(['Mason Crosby', 2, 'K', '6-1', '207', 34, 12, 'Colorado'])
