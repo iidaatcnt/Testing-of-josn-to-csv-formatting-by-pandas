@@ -1,11 +1,11 @@
 import pandas as pd
 import csv
-# import json
+import json
 
-class Getqb:
+class Getqb(object):
 
-    def __init__(self):
-        pass
+    def __init__(self,file_name):
+        self.file_name = file_name
 
     def read_from_json(self):
         df = pd.read_json('input/sample.json')
@@ -17,9 +17,6 @@ class Getqb:
         # CSV ファイル (employee.csv) として出力
         df.to_csv("output/output.csv", index=False)
 
-getqb = Getqb()
-getqb.write_to_csv()
+        return self.file_name
 
-# if __name__ == '__main__':
-#     write_to_csv()
 
