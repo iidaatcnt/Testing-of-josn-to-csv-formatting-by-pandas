@@ -15,6 +15,7 @@ class Getqb(object):
     def write_to_csv(self):
         df = pd.read_json(self.file_name)
         # CSV ファイルとして出力
+        # indexを出力対象から外したい場合はindex = Falseを指定。
         df.to_csv("output/output.csv", index=False)
         return self.file_name
 
