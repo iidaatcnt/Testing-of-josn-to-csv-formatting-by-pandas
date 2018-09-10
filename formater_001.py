@@ -7,16 +7,14 @@ class Getqb(object):
     def __init__(self,file_name):
         self.file_name = file_name
 
-    def read_from_json(self):
-        df = pd.read_json('input/sample.json')
+    def get_header(self):
+        df = pd.read_json(self.file_name)
         print(df)
+        return df[0]
 
     def write_to_csv(self):
-        df = pd.read_json('input/greenbay_players.json')
-
-        # CSV ファイル (employee.csv) として出力
+        df = pd.read_json(self.file_name)
+        # CSV ファイルとして出力
         df.to_csv("output/output.csv", index=False)
-
         return self.file_name
-
 
