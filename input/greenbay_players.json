@@ -1,6 +1,7 @@
-[
+{
+"players":[
   {
-    "Player": "Mason Crosby",
+    "Name": "Mason Crosby",
     "Hash": 2,
     "Pos": "K",
     "WT": 207,
@@ -9,7 +10,7 @@
     "College": "Colorado"
   },
   {
-    "Player": "JK Scott",
+    "Name": "JK Scott",
     "Hash": 6,
     "Pos": "P",
     "WT": 208,
@@ -18,7 +19,7 @@
     "College": "Alabama"
   },
   {
-    "Player": "Tim Boyle",
+    "Name": "Tim Boyle",
     "Hash": 8,
     "Pos": "QB",
     "WT": 232,
@@ -27,7 +28,7 @@
     "College": "Eastern"
   },
   {
-    "Player": "DeShone Kizer",
+    "Name": "DeShone Kizer",
     "Hash": 9,
     "Pos": "QB",
     "WT": 235,
@@ -36,7 +37,7 @@
     "College": "Notre"
   },
   {
-    "Player": "Trevor Davis",
+    "Name": "Trevor Davis",
     "Hash": 11,
     "Pos": "WR",
     "WT": 188,
@@ -45,7 +46,7 @@
     "College": "California"
   },
   {
-    "Player": "Aaron Rodgers",
+    "Name": "Aaron Rodgers",
     "Hash": 12,
     "Pos": "QB",
     "WT": 225,
@@ -54,7 +55,7 @@
     "College": "California"
   },
   {
-    "Player": "Davante Adams",
+    "Name": "Davante Adams",
     "Hash": 17,
     "Pos": "WR",
     "WT": 215,
@@ -63,7 +64,7 @@
     "College": "Fresno"
   },
   {
-    "Player": "Randall Cobb",
+    "Name": "Randall Cobb",
     "Hash": 18,
     "Pos": "WR",
     "WT": 192,
@@ -72,7 +73,7 @@
     "College": "Kentucky"
   },
   {
-    "Player": "Equanimeous St. Brown",
+    "Name": "Equanimeous St. Brown",
     "Hash": 19,
     "Pos": "WR",
     "WT": 214,
@@ -81,7 +82,7 @@
     "College": "Notre"
   },
   {
-    "Player": "Kevin King",
+    "Name": "Kevin King",
     "Hash": 20,
     "Pos": "CB",
     "WT": 200,
@@ -90,7 +91,7 @@
     "College": "Washington"
   },
   {
-    "Player": "Ha Ha Clinton-Dix",
+    "Name": "Ha Ha Clinton-Dix",
     "Hash": 21,
     "Pos": "S",
     "WT": 208,
@@ -99,7 +100,7 @@
     "College": "Alabama"
   },
   {
-    "Player": "Darius Jackson",
+    "Name": "Darius Jackson",
     "Hash": 22,
     "Pos": "RB",
     "WT": 228,
@@ -108,7 +109,7 @@
     "College": "Eastern"
   },
   {
-    "Player": "Jaire Alexander",
+    "Name": "Jaire Alexander",
     "Hash": 23,
     "Pos": "CB",
     "WT": 196,
@@ -117,7 +118,7 @@
     "College": "Louisville"
   },
   {
-    "Player": "Josh Jones",
+    "Name": "Josh Jones",
     "Hash": 27,
     "Pos": "S",
     "WT": 220,
@@ -126,7 +127,7 @@
     "College": "North"
   },
   {
-    "Player": "Kentrell Brice",
+    "Name": "Kentrell Brice",
     "Hash": 29,
     "Pos": "S",
     "WT": 200,
@@ -135,7 +136,7 @@
     "College": "Louisiana"
   },
   {
-    "Player": "Jamaal Williams",
+    "Name": "Jamaal Williams",
     "Hash": 30,
     "Pos": "RB",
     "WT": 213,
@@ -144,7 +145,7 @@
     "College": "Brigham"
   },
   {
-    "Player": "Davon House",
+    "Name": "Davon House",
     "Hash": 31,
     "Pos": "CB",
     "WT": 195,
@@ -153,7 +154,7 @@
     "College": "New"
   },
   {
-    "Player": "Jermaine Whitehead",
+    "Name": "Jermaine Whitehead",
     "Hash": 35,
     "Pos": "S",
     "WT": 195,
@@ -162,7 +163,7 @@
     "College": "Auburn"
   },
   {
-    "Player": "Raven Greene",
+    "Name": "Raven Greene",
     "Hash": 36,
     "Pos": "S",
     "WT": 197,
@@ -171,7 +172,7 @@
     "College": "James"
   },
   {
-    "Player": "Josh Jackson",
+    "Name": "Josh Jackson",
     "Hash": 37,
     "Pos": "CB",
     "WT": 196,
@@ -180,7 +181,7 @@
     "College": "Iowa"
   },
   {
-    "Player": "Tramon Williams",
+    "Name": "Tramon Williams",
     "Hash": 38,
     "Pos": "CB",
     "WT": 191,
@@ -189,7 +190,7 @@
     "College": "Louisiana"
   },
   {
-    "Player": "Oren Burks",
+    "Name": "Oren Burks",
     "Hash": 42,
     "Pos": "LB",
     "WT": 233,
@@ -198,7 +199,7 @@
     "College": "Vanderbilt"
   },
   {
-    "Player": "Hunter Bradley",
+    "Name": "Hunter Bradley",
     "Hash": 43,
     "Pos": "LS",
     "WT": 241,
@@ -207,7 +208,7 @@
     "College": "Mississippi"
   },
   {
-    "Player": "Antonio Morrison",
+    "Name": "Antonio Morrison",
     "Hash": 44,
     "Pos": "LB",
     "WT": 241,
@@ -216,7 +217,7 @@
     "College": "Florida"
   },
   {
-    "Player": "Blake Martinez",
+    "Name": "Blake Martinez",
     "Hash": 50,
     "Pos": "LB",
     "WT": 237,
@@ -225,7 +226,7 @@
     "College": "Stanford"
   },
   {
-    "Player": "Kyler Fackrell",
+    "Name": "Kyler Fackrell",
     "Hash": 51,
     "Pos": "LB",
     "WT": 245,
@@ -234,7 +235,7 @@
     "College": "Utah"
   },
   {
-    "Player": "Clay Matthews",
+    "Name": "Clay Matthews",
     "Hash": 52,
     "Pos": "LB",
     "WT": 255,
@@ -243,7 +244,7 @@
     "College": "Southern"
   },
   {
-    "Player": "Nick Perry",
+    "Name": "Nick Perry",
     "Hash": 53,
     "Pos": "LB",
     "WT": 265,
@@ -252,7 +253,7 @@
     "College": "Southern"
   },
   {
-    "Player": "James Crawford",
+    "Name": "James Crawford",
     "Hash": 54,
     "Pos": "LB",
     "WT": 239,
@@ -261,7 +262,7 @@
     "College": "Illinois"
   },
   {
-    "Player": "Korey Toomer",
+    "Name": "Korey Toomer",
     "Hash": 56,
     "Pos": "LB",
     "WT": 235,
@@ -270,7 +271,7 @@
     "College": "Idaho"
   },
   {
-    "Player": "Lucas Patrick",
+    "Name": "Lucas Patrick",
     "Hash": 62,
     "Pos": "G",
     "WT": 313,
@@ -279,7 +280,7 @@
     "College": "Duke"
   },
   {
-    "Player": "Corey Linsley",
+    "Name": "Corey Linsley",
     "Hash": 63,
     "Pos": "C",
     "WT": 301,
@@ -288,7 +289,7 @@
     "College": "Ohio"
   },
   {
-    "Player": "Justin McCray",
+    "Name": "Justin McCray",
     "Hash": 64,
     "Pos": "G",
     "WT": 317,
@@ -297,7 +298,7 @@
     "College": "Central"
   },
   {
-    "Player": "Lane Taylor",
+    "Name": "Lane Taylor",
     "Hash": 65,
     "Pos": "G",
     "WT": 324,
@@ -306,7 +307,7 @@
     "College": "Oklahoma"
   },
   {
-    "Player": "David Bakhtiari",
+    "Name": "David Bakhtiari",
     "Hash": 69,
     "Pos": "T",
     "WT": 310,
@@ -315,7 +316,7 @@
     "College": "Colorado"
   },
   {
-    "Player": "Alex Light",
+    "Name": "Alex Light",
     "Hash": 70,
     "Pos": "T/G",
     "WT": 309,
@@ -324,7 +325,7 @@
     "College": "Richmond"
   },
   {
-    "Player": "Byron Bell",
+    "Name": "Byron Bell",
     "Hash": 74,
     "Pos": "T/G",
     "WT": 320,
@@ -333,7 +334,7 @@
     "College": "New"
   },
   {
-    "Player": "Bryan Bulaga",
+    "Name": "Bryan Bulaga",
     "Hash": 75,
     "Pos": "T",
     "WT": 314,
@@ -342,7 +343,7 @@
     "College": "Iowa"
   },
   {
-    "Player": "Mike Daniels",
+    "Name": "Mike Daniels",
     "Hash": 76,
     "Pos": "DL",
     "WT": 310,
@@ -351,7 +352,7 @@
     "College": "Iowa"
   },
   {
-    "Player": "Jason Spriggs",
+    "Name": "Jason Spriggs",
     "Hash": 78,
     "Pos": "T",
     "WT": 301,
@@ -360,7 +361,7 @@
     "College": "Indiana"
   },
   {
-    "Player": "Jimmy Graham",
+    "Name": "Jimmy Graham",
     "Hash": 80,
     "Pos": "TE",
     "WT": 265,
@@ -369,7 +370,7 @@
     "College": "Miami"
   },
   {
-    "Player": "Geronimo Allison",
+    "Name": "Geronimo Allison",
     "Hash": 81,
     "Pos": "WR",
     "WT": 202,
@@ -378,7 +379,7 @@
     "College": "Illinois"
   },
   {
-    "Player": "J'Mon Moore",
+    "Name": "J'Mon Moore",
     "Hash": 82,
     "Pos": "WR",
     "WT": 205,
@@ -387,7 +388,7 @@
     "College": "Missouri"
   },
   {
-    "Player": "Marquez Valdes-Scantling",
+    "Name": "Marquez Valdes-Scantling",
     "Hash": 83,
     "Pos": "WR",
     "WT": 206,
@@ -396,7 +397,7 @@
     "College": "South"
   },
   {
-    "Player": "Lance Kendricks",
+    "Name": "Lance Kendricks",
     "Hash": 84,
     "Pos": "TE",
     "WT": 250,
@@ -405,7 +406,7 @@
     "College": "Wisconsin"
   },
   {
-    "Player": "Robert Tonyan",
+    "Name": "Robert Tonyan",
     "Hash": 85,
     "Pos": "TE",
     "WT": 237,
@@ -414,7 +415,7 @@
     "College": "Indiana"
   },
   {
-    "Player": "Ty Montgomery",
+    "Name": "Ty Montgomery",
     "Hash": 88,
     "Pos": "RB",
     "WT": 216,
@@ -423,7 +424,7 @@
     "College": "Stanford"
   },
   {
-    "Player": "Marcedes Lewis",
+    "Name": "Marcedes Lewis",
     "Hash": 89,
     "Pos": "TE",
     "WT": 267,
@@ -432,7 +433,7 @@
     "College": "UCLA"
   },
   {
-    "Player": "Montravius Adams",
+    "Name": "Montravius Adams",
     "Hash": 90,
     "Pos": "DL",
     "WT": 304,
@@ -441,7 +442,7 @@
     "College": "Auburn"
   },
   {
-    "Player": "Reggie Gilbert",
+    "Name": "Reggie Gilbert",
     "Hash": 93,
     "Pos": "LB",
     "WT": 261,
@@ -450,7 +451,7 @@
     "College": "Arizona"
   },
   {
-    "Player": "Dean Lowry",
+    "Name": "Dean Lowry",
     "Hash": 94,
     "Pos": "DL",
     "WT": 296,
@@ -459,7 +460,7 @@
     "College": "Northwestern"
   },
   {
-    "Player": "Muhammad Wilkerson",
+    "Name": "Muhammad Wilkerson",
     "Hash": 96,
     "Pos": "DL",
     "WT": 315,
@@ -468,7 +469,7 @@
     "College": "Temple"
   },
   {
-    "Player": "Kenny Clark",
+    "Name": "Kenny Clark",
     "Hash": 97,
     "Pos": "DL",
     "WT": 314,
@@ -477,3 +478,4 @@
     "College": "UCLA"
   }
 ]
+}

@@ -1,0 +1,481 @@
+{
+  "players": [
+    {
+      "name": "Mason Crosby",
+      "hash": 2,
+      "position": "K",
+      "weight": 207,
+      "age": 34,
+      "experience": 12,
+      "college": "Colorado"
+    },
+    {
+      "name": "JK Scott",
+      "hash": 6,
+      "position": "P",
+      "weight": 208,
+      "age": 21,
+      "experience": "R",
+      "college": "Alabama"
+    },
+    {
+      "name": "Tim Boyle",
+      "hash": 8,
+      "position": "QB",
+      "weight": 232,
+      "age": 23,
+      "experience": "R",
+      "college": "Eastern"
+    },
+    {
+      "name": "DeShone Kizer",
+      "hash": 9,
+      "position": "QB",
+      "weight": 235,
+      "age": 22,
+      "experience": 2,
+      "college": "Notre"
+    },
+    {
+      "name": "Trevor Davis",
+      "hash": 11,
+      "position": "WR",
+      "weight": 188,
+      "age": 25,
+      "experience": 3,
+      "college": "California"
+    },
+    {
+      "name": "Aaron Rodgers",
+      "hash": 12,
+      "position": "QB",
+      "weight": 225,
+      "age": 34,
+      "experience": 14,
+      "college": "California"
+    },
+    {
+      "name": "Davante Adams",
+      "hash": 17,
+      "position": "WR",
+      "weight": 215,
+      "age": 25,
+      "experience": 5,
+      "college": "Fresno"
+    },
+    {
+      "name": "Randall Cobb",
+      "hash": 18,
+      "position": "WR",
+      "weight": 192,
+      "age": 28,
+      "experience": 8,
+      "college": "Kentucky"
+    },
+    {
+      "name": "Equanimeous St. Brown",
+      "hash": 19,
+      "position": "WR",
+      "weight": 214,
+      "age": 21,
+      "experience": "R",
+      "college": "Notre"
+    },
+    {
+      "name": "Kevin King",
+      "hash": 20,
+      "position": "CB",
+      "weight": 200,
+      "age": 23,
+      "experience": 2,
+      "college": "Washington"
+    },
+    {
+      "name": "Ha Ha Clinton-Dix",
+      "hash": 21,
+      "position": "S",
+      "weight": 208,
+      "age": 25,
+      "experience": 5,
+      "college": "Alabama"
+    },
+    {
+      "name": "Darius Jackson",
+      "hash": 22,
+      "position": "RB",
+      "weight": 228,
+      "age": 24,
+      "experience": 3,
+      "college": "Eastern"
+    },
+    {
+      "name": "Jaire Alexander",
+      "hash": 23,
+      "position": "CB",
+      "weight": 196,
+      "age": 21,
+      "experience": "R",
+      "college": "Louisville"
+    },
+    {
+      "name": "Josh Jones",
+      "hash": 27,
+      "position": "S",
+      "weight": 220,
+      "age": 23,
+      "experience": 2,
+      "college": "North"
+    },
+    {
+      "name": "Kentrell Brice",
+      "hash": 29,
+      "position": "S",
+      "weight": 200,
+      "age": 24,
+      "experience": 3,
+      "college": "Louisiana"
+    },
+    {
+      "name": "Jamaal Williams",
+      "hash": 30,
+      "position": "RB",
+      "weight": 213,
+      "age": 23,
+      "experience": 2,
+      "college": "Brigham"
+    },
+    {
+      "name": "Davon House",
+      "hash": 31,
+      "position": "CB",
+      "weight": 195,
+      "age": 29,
+      "experience": 8,
+      "college": "New"
+    },
+    {
+      "name": "Jermaine Whitehead",
+      "hash": 35,
+      "position": "S",
+      "weight": 195,
+      "age": 25,
+      "experience": 2,
+      "college": "Auburn"
+    },
+    {
+      "name": "Raven Greene",
+      "hash": 36,
+      "position": "S",
+      "weight": 197,
+      "age": 23,
+      "experience": "R",
+      "college": "James"
+    },
+    {
+      "name": "Josh Jackson",
+      "hash": 37,
+      "position": "CB",
+      "weight": 196,
+      "age": 22,
+      "experience": "R",
+      "college": "Iowa"
+    },
+    {
+      "name": "Tramon Williams",
+      "hash": 38,
+      "position": "CB",
+      "weight": 191,
+      "age": 35,
+      "experience": 12,
+      "college": "Louisiana"
+    },
+    {
+      "name": "Oren Burks",
+      "hash": 42,
+      "position": "LB",
+      "weight": 233,
+      "age": 23,
+      "experience": "R",
+      "college": "Vanderbilt"
+    },
+    {
+      "name": "Hunter Bradley",
+      "hash": 43,
+      "position": "LS",
+      "weight": 241,
+      "age": 24,
+      "experience": "R",
+      "college": "Mississippi"
+    },
+    {
+      "name": "Antonio Morrison",
+      "hash": 44,
+      "position": "LB",
+      "weight": 241,
+      "age": 23,
+      "experience": 3,
+      "college": "Florida"
+    },
+    {
+      "name": "Blake Martinez",
+      "hash": 50,
+      "position": "LB",
+      "weight": 237,
+      "age": 24,
+      "experience": 3,
+      "college": "Stanford"
+    },
+    {
+      "name": "Kyler Fackrell",
+      "hash": 51,
+      "position": "LB",
+      "weight": 245,
+      "age": 26,
+      "experience": 3,
+      "college": "Utah"
+    },
+    {
+      "name": "Clay Matthews",
+      "hash": 52,
+      "position": "LB",
+      "weight": 255,
+      "age": 32,
+      "experience": 10,
+      "college": "Southern"
+    },
+    {
+      "name": "Nick Perry",
+      "hash": 53,
+      "position": "LB",
+      "weight": 265,
+      "age": 28,
+      "experience": 7,
+      "college": "Southern"
+    },
+    {
+      "name": "James Crawford",
+      "hash": 54,
+      "position": "LB",
+      "weight": 239,
+      "age": 23,
+      "experience": "R",
+      "college": "Illinois"
+    },
+    {
+      "name": "Korey Toomer",
+      "hash": 56,
+      "position": "LB",
+      "weight": 235,
+      "age": 29,
+      "experience": 5,
+      "college": "Idaho"
+    },
+    {
+      "name": "Lucas Patrick",
+      "hash": 62,
+      "position": "G",
+      "weight": 313,
+      "age": 25,
+      "experience": 2,
+      "college": "Duke"
+    },
+    {
+      "name": "Corey Linsley",
+      "hash": 63,
+      "position": "C",
+      "weight": 301,
+      "age": 27,
+      "experience": 5,
+      "college": "Ohio"
+    },
+    {
+      "name": "Justin McCray",
+      "hash": 64,
+      "position": "G",
+      "weight": 317,
+      "age": 26,
+      "experience": 2,
+      "college": "Central"
+    },
+    {
+      "name": "Lane Taylor",
+      "hash": 65,
+      "position": "G",
+      "weight": 324,
+      "age": 28,
+      "experience": 6,
+      "college": "Oklahoma"
+    },
+    {
+      "name": "David Bakhtiari",
+      "hash": 69,
+      "position": "T",
+      "weight": 310,
+      "age": 26,
+      "experience": 6,
+      "college": "Colorado"
+    },
+    {
+      "name": "Alex Light",
+      "hash": 70,
+      "position": "T/G",
+      "weight": 309,
+      "age": 22,
+      "experience": "R",
+      "college": "Richmond"
+    },
+    {
+      "name": "Byron Bell",
+      "hash": 74,
+      "position": "T/G",
+      "weight": 320,
+      "age": 29,
+      "experience": 8,
+      "college": "New"
+    },
+    {
+      "name": "Bryan Bulaga",
+      "hash": 75,
+      "position": "T",
+      "weight": 314,
+      "age": 29,
+      "experience": 9,
+      "college": "Iowa"
+    },
+    {
+      "name": "Mike Daniels",
+      "hash": 76,
+      "position": "DL",
+      "weight": 310,
+      "age": 29,
+      "experience": 7,
+      "college": "Iowa"
+    },
+    {
+      "name": "Jason Spriggs",
+      "hash": 78,
+      "position": "T",
+      "weight": 301,
+      "age": 24,
+      "experience": 3,
+      "college": "Indiana"
+    },
+    {
+      "name": "Jimmy Graham",
+      "hash": 80,
+      "position": "TE",
+      "weight": 265,
+      "age": 31,
+      "experience": 9,
+      "college": "Miami"
+    },
+    {
+      "name": "Geronimo Allison",
+      "hash": 81,
+      "position": "WR",
+      "weight": 202,
+      "age": 24,
+      "experience": 3,
+      "college": "Illinois"
+    },
+    {
+      "name": "J'Mon Moore",
+      "hash": 82,
+      "position": "WR",
+      "weight": 205,
+      "age": 23,
+      "experience": "R",
+      "college": "Missouri"
+    },
+    {
+      "name": "Marquez Valdes-Scantling",
+      "hash": 83,
+      "position": "WR",
+      "weight": 206,
+      "age": 23,
+      "experience": "R",
+      "college": "South"
+    },
+    {
+      "name": "Lance Kendricks",
+      "hash": 84,
+      "position": "TE",
+      "weight": 250,
+      "age": 30,
+      "experience": 8,
+      "college": "Wisconsin"
+    },
+    {
+      "name": "Robert Tonyan",
+      "hash": 85,
+      "position": "TE",
+      "weight": 237,
+      "age": 24,
+      "experience": 1,
+      "college": "Indiana"
+    },
+    {
+      "name": "Ty Montgomery",
+      "hash": 88,
+      "position": "RB",
+      "weight": 216,
+      "age": 25,
+      "experience": 4,
+      "college": "Stanford"
+    },
+    {
+      "name": "Marcedes Lewis",
+      "hash": 89,
+      "position": "TE",
+      "weight": 267,
+      "age": 34,
+      "experience": 13,
+      "college": "UCLA"
+    },
+    {
+      "name": "Montravius Adams",
+      "hash": 90,
+      "position": "DL",
+      "weight": 304,
+      "age": 23,
+      "experience": 2,
+      "college": "Auburn"
+    },
+    {
+      "name": "Reggie Gilbert",
+      "hash": 93,
+      "position": "LB",
+      "weight": 261,
+      "age": 25,
+      "experience": 1,
+      "college": "Arizona"
+    },
+    {
+      "name": "Dean Lowry",
+      "hash": 94,
+      "position": "DL",
+      "weight": 296,
+      "age": 24,
+      "experience": 3,
+      "college": "Northwestern"
+    },
+    {
+      "name": "Muhammad Wilkerson",
+      "hash": 96,
+      "position": "DL",
+      "weight": 315,
+      "age": 28,
+      "experience": 8,
+      "college": "Temple"
+    },
+    {
+      "name": "Kenny Clark",
+      "hash": 97,
+      "position": "DL",
+      "weight": 314,
+      "age": 22,
+      "experience": 3,
+      "college": "UCLA"
+    }
+  ]
+}
