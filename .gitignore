@@ -7,3 +7,7 @@ formatter/test.txt
 .idea/modules.xml
 .idea/workspace.xml
 output/*
+.idea/other.xml
+.idea/Testing-of-josn-to-csv-formatting-by-pandas.iml
+jupyter/.ipynb_checkpoints/Untitled-checkpoint.ipynb
+jupyter/.ipynb_checkpoints/formater-checkpoint.ipynb
