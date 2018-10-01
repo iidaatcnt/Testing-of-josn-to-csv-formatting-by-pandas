@@ -1,0 +1,43 @@
+{
+	"version": "prottype",
+	"inputdata":{
+		"items": {
+			"East":[
+				{
+					"club": "DAL",
+					"Stadium": "area77"
+				},
+				{
+					"club": "NY",
+					"Stadium": "area77"
+				}
+			],
+			"North":[
+				{
+					"club": "CHI",
+					"Stadium": "area77"
+				},
+				{
+					"club": "GB",
+					"Stadium": "area77"
+				}
+			],
+			"South":[
+				{
+					"club": "TB",
+					"Stadium": "area77"
+				},
+				{
+					"club": "NO",
+					"Stadium": "area77"
+				}
+			],
+			"West":[
+				{
+					"club": "SF",
+					"Stadium": "area77"
+				}
+			]
+		}
+	}
+}
