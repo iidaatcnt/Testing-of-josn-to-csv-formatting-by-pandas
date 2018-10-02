@@ -10,4 +10,11 @@ output/*
 .idea/other.xml
 .idea/Testing-of-josn-to-csv-formatting-by-pandas.iml
 jupyter/.ipynb_checkpoints/Untitled-checkpoint.ipynb
+jupyter/.ipynb_checkpoints/*
 jupyter/.ipynb_checkpoints/formater-checkpoint.ipynb
+jupyter/.ipynb_checkpoints/01_pattern_list_to_vertical-checkpoint.ipynb
+jupyter/.ipynb_checkpoints/02_pattern_fillna_int_or_float-checkpoint.ipynb
+jupyter/.ipynb_checkpoints/Cascade heading-checkpoint.ipynb
+jupyter/.ipynb_checkpoints/Exp_column1_fillna-checkpoint.ipynb
+jupyter/.ipynb_checkpoints/Exp_column2_fillna-checkpoint.ipynb
+jupyter/.ipynb_checkpoints/Exp_no_str_fillna-checkpoint.ipynb
