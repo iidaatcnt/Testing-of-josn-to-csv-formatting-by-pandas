@@ -1,21 +1,6 @@
 import pandas as pd
 
 # factory_tblを作成
-records = [
-    {"cd": "E001", "val": 100},
-    {"cd": "E001", "val": ''},
-    {"cd": "E001", "val": None},
-    {"cd": "E002", "val": 100},
-    {"cd": "E002", "val": ''},
-    {"cd": "E002", "val": None},
-    {"cd": "F001", "val": 100},
-    {"cd": "F001", "val": ''},
-    {"cd": "F001", "val": None},
-    {"cd": "F002", "val": 100},
-    {"cd": "F002", "val": ''},
-    {"cd": "F002", "val": None}
-]
-cols = ["cd", "val"]
 
 
 def create_tbl(records, cols):
@@ -24,6 +9,41 @@ def create_tbl(records, cols):
     return tbl
 
 
+# int + str  :object
+records = [
+     {"lcd": "E00", "product": "item1", "price": 100},
+     {"lcd": "E01", "product": "item1", "price": ''},
+     {"lcd": "E02", "product": "item1", "price": ''},
+     {"lcd": "F00", "product": "item1", "price": 300},
+     {"lcd": "F01", "product": "item1", "price": ''},
+     {"lcd": "F02", "product": "item1", "price": ''}
+     ]
+cols = ["lcd", "product", "price"]
 tbl = create_tbl(records, cols)
+print(tbl)
 
+# int + str  :object
+records = [
+     {"lcd": "E00", "product": "item1", "price": ''},
+     {"lcd": "E01", "product": "item1", "price": ''},
+     {"lcd": "E02", "product": "item1", "price": ''},
+     {"lcd": "F00", "product": "item1", "price": ''},
+     {"lcd": "F01", "product": "item1", "price": ''},
+     {"lcd": "F02", "product": "item1", "price": ''}
+     ]
+cols = ["lcd", "product", "price"]
+tbl = create_tbl(records, cols)
+print(tbl)
+
+# int + str  :object
+records = [
+     {"lcd": "E00", "product": "item1", "price": None},
+     {"lcd": "E01", "product": "item1", "price": None},
+     {"lcd": "E02", "product": "item1", "price": None},
+     {"lcd": "F00", "product": "item1", "price": None},
+     {"lcd": "F01", "product": "item1", "price": None},
+     {"lcd": "F02", "product": "item1", "price": None}
+     ]
+cols = ["lcd", "product", "price"]
+tbl = create_tbl(records, cols)
 print(tbl)
