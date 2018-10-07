@@ -34,12 +34,12 @@ mst_o = pd.DataFrame(
 
 # print(mst_e)
 # print(mst_o)
-print(df)
+# print(df)
 
 mst_e = mst_e.rename(columns={'price': 'e_price'})
 mst_o = mst_o.rename(columns={'price': 'o_price'})
-print(mst_e)
-print(mst_o)
+# print(mst_e)
+# print(mst_o)
 
 # print(pd.concat([mst_e, mst_o]))
 # print(pd.concat([df, mst_o], axis=1))
@@ -48,6 +48,21 @@ print(mst_o)
 # df = pd.concat([df, mst_e], axis=1, join_axes=[df.index])
 # df = pd.merge(df, mst_o, on='lcd')
 
+# df <- df + mst_o + mst_e
 df = pd.merge(df, mst_o, on='lcd', how='left')
 df = pd.merge(df, mst_e, on='lcd', how='left')
-print(df)
+
+# ''() -> None
+df = df.replace({'': None})
+
+
+df.loc[df['price'] == '', 'A'] = -100
+
+# df.loc[df["price"]., "e_price"] = \
+#     tbl_merged.loc[tbl_merged["val"].map(math.isnan) & tbl_merged[x_val].map(is_not_nan), x_val]
+
+# fill na
+#df['price'] = df['price'].fillna(init_val)
+
+print('--df--\n', df)
+
