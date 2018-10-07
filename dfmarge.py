@@ -56,13 +56,19 @@ df = pd.merge(df, mst_e, on='lcd', how='left')
 df = df.replace({'': None})
 
 
-df.loc[df['price'] == '', 'A'] = -100
+print('--df--1\n', df)
 
 # df.loc[df["price"]., "e_price"] = \
 #     tbl_merged.loc[tbl_merged["val"].map(math.isnan) & tbl_merged[x_val].map(is_not_nan), x_val]
 
-# fill na
-#df['price'] = df['price'].fillna(init_val)
 
-print('--df--\n', df)
+# loc でブールインデックス参照
+# df.loc[df['price'] == '', 'price'] = -10
+# df.loc[(df['price'] == ''& df['lcd'].startswith('E')), 'price'] = df['e_price']
+# df.loc[df['price'] == '', 'price'] = df['o_price']
+
+# fill na
+# df['price'] = df['price'].fillna(init_val)
+
+print('--df--2\n', df)
 
