@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import math
 
 init_val = 99
 
@@ -53,7 +54,7 @@ df = pd.merge(df, mst_o, on='lcd', how='left')
 df = pd.merge(df, mst_e, on='lcd', how='left')
 
 # ''() -> None
-df = df.replace({'': None})
+# df = df.replace({'': None})
 
 
 print('--df--1\n', df)
@@ -61,11 +62,16 @@ print('--df--1\n', df)
 # df.loc[df["price"]., "e_price"] = \
 #     tbl_merged.loc[tbl_merged["val"].map(math.isnan) & tbl_merged[x_val].map(is_not_nan), x_val]
 
+# Nanがあるか判断する
+# print('--df--add\n',df.isnull())
 
 # loc でブールインデックス参照
 # df.loc[df['price'] == '', 'price'] = -10
+# https://qiita.com/knknkn1162/items/f4b706d6d678d32ce08f
+
 # df.loc[(df['price'] == ''& df['lcd'].startswith('E')), 'price'] = df['e_price']
-# df.loc[df['price'] == '', 'price'] = df['o_price']
+# print(df.isnull(df.at[0,'price']))
+# print(df.loc['price'].isnull())
 
 # fill na
 # df['price'] = df['price'].fillna(init_val)
