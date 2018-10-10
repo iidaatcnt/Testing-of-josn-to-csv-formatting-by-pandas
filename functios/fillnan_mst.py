@@ -140,7 +140,8 @@ def fillnan_mst(update_tbl, emst, fmst, mst_init):
 
     # 必要な列のみを抽出し、新しいdfを作成
     update_tbl = tbl_merged[["lcd_x", "product", "new_price"]]
-    update_tbl = tbl.rename(columns={"lcd_x": "lcd", "new_price": "price"})
+    update_tbl = update_tbl.rename(columns=\
+        {"lcd_x": "lcd", "new_price": "price"})
 
     return update_tbl
 
