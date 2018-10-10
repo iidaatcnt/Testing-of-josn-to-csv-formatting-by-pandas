@@ -2,11 +2,46 @@
 
 ## 1. 010の作成
 
-### `.py`を作成
+### `pattern_list_to_vertical_010.py`を作成
+
+010_指定した列内のリストを展開し、縦持ちの1行1データのデータフレームに変換する
+
+主関数
+
+`def pattern_list_to_vertical(update_dfm, to_vertical_column):`
+
+必要な入力データ
+
+- 対象列名
+
+`to_vertical_column = str`
+
+- 更新tbl
+
+`update_dfm = pd.DataFrame(..)`
+
+必要な内部関数
+
+- 無し
+
+【補足】
+
+(2018-10-10 追加): 縦持ちに変換後、各列のデータ型をインプットdfmに合わせるコードを追加
 
 ### pep8とpylintの構文チェック
 
+pep8: 問題なし
+
+pylint: W0611 「numpyが読み込めない」という注意が出ている
+
+-> 実行できているので、無視（使用している仮想環境の影響？）
+
 ### noseテスト
+
+testsディレクトリで`nosetests test_pattern_list_to_vertical_010.py`を実行
+
+- `test_pattern_list_to_vertical()`: 最初に与えられた例でpattern_list_to_vertical()をテスト
+    - 問題なし
 
 ## 2. 020の作成
 
@@ -70,7 +105,7 @@
 
 【補足】
 
-欠損値処理を行う際、price列はint型であると仮定して最後にint型に変換している
+(2018-10-10 追加): 欠損値処理を行う際、price列はint型であると仮定して最後にint型に変換するコードを追加
 
 ### pep8とpylintの構文チェック
 
