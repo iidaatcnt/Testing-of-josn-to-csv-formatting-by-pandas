@@ -74,10 +74,6 @@ class TestFillnanMst:
             ], columns=["cd", "val"]
         )
 
-        # expected_tableのprice列のデータ型をint型に変換
-        # PRICE_TYPE = int
-        # expected_table = expected_table.astype({"price": PRICE_TYPE})
-
         # fillnan_mst_for関数を実行
         result_table = fillnan_mst_030_1.fillnan_mst_for(
             test_tbl,
@@ -157,9 +153,6 @@ class TestFillnanMst:
                 {"cd": "X003", "val": 300}
                 ], columns=["cd", "val"]
         )
-        # expected_tableのprice列のデータ型をint型に変換
-        # PRICE_TYPE = int
-        # expected_table = expected_table.astype({"price": PRICE_TYPE})
 
         # fillnan_mst_for関数を実行
         result_table = fillnan_mst_030_1.fillnan_mst_for(

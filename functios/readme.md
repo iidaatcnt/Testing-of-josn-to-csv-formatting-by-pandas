@@ -276,12 +276,46 @@ testsディレクトリで`nosetests test_fillnan_mst_032.py`を実行
 
 ## 6. 032の一部を変更した部品作成
 
-### `.py`を作成
-マージ後、（ tbl_merged.priceがNone）　and  （lcd がEで始まる）時にtbl_merged.priceにe_priceを代入するコードの作成
+### `fillnan_mst_032_part.py`を作成
+
+032_part マージ後、（ tbl_merged.priceがNone）　and  （lcd がEで始まる）時にtbl_merged.priceにe_priceを代入するコード
+
+主関数
+
+`def fillnan_e_price(tbl_merged, cols):`
+
+必要な入力データ
+
+- 使用する列の指定
+
+`cols = {"lcd": "...", "price": "...", "e_price": "..."}`
+
+- 更新tbl
+
+`tbl_merged = pd.DataFrame(..)`
+
+必要な内部関数
+
+`def is_not_nan(val):`
+
+【補足】
+
+(2018-10-10 追加): dfm.priceの""をNaNで埋めるコードを追加
 
 ### pep8とpylintの構文チェック
 
+pep8: E127, E128, E502 の注意が出ている
+
+-> 「一行80文字」というコーディングルールに合わせるため、無視
+
+pylint: 問題なし
+
 ### noseテスト
+
+testsディレクトリで`nosetests test_fillnan_mst_032_part.py`を実行
+
+- `test_fillnan_e_price_small()`: 最初に与えられた例でfillnan_e_price()をテスト
+    - 問題なし
 
 ## 7. 032のテストコードを作成
 
