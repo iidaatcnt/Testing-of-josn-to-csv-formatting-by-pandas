@@ -45,11 +45,58 @@ testsディレクトリで`nosetests test_pattern_list_to_vertical_010.py`を実
 
 ## 2. 020の作成
 
-### `.py`を作成
+### `pattern_fillna_int_or_float_020.py`を作成
+
+020_以下の条件に沿って、欠損値を穴埋め
+- 既定値の値もデータ型もそのまま変えずに穴埋め
+- 欠損箇所を埋める既定値は列ごとにある
+- データはintとflortの場合がある
+- 列内のNoneのところだけに穴埋め処理し、他は影響なし
+- 空文字はNone扱い
+- 列名ミスなどでNaNとなっている部分は放置
+- 穴埋めの既定値は基本的にint型。
+- float型で穴埋めしたい列名を引数でリスト形式で指定
+    - 未対応
+    - （既定値を99.0のようにfloatにすればfloat型で埋まるが、それでは不足か）
+
+主関数
+
+`def pattern_list_to_vertical(update_dfm, to_vertical_column):`
+
+必要な入力データ
+
+- 対象列名と既定値のdict
+
+`default_val_dict = dict`
+
+- 更新tbl
+
+`update_dfm = pd.DataFrame(..)`
+
+必要な内部関数
+
+`def fill_none(dfm, col_name, default_val):`
+
+`def set_default(val):`
+
+`def set_type(dfm, dfm_type, col_name, default_val):`
+
+【補足】
 
 ### pep8とpylintの構文チェック
 
+pep8: 問題なし
+
+pylint: R1705 「elseが不要」という注意が出ている
+
+-> 可読性を考慮し、無視
+
 ### noseテスト
+
+testsディレクトリで`nosetests test_pattern_fillna_int_or_float_020.py`を実行
+
+- `test_pattern_fillna_int_or_float()`: 最初に与えられた例でpattern_fillna_int_or_float()をテスト
+    - 問題なし
 
 ## 3. 030の作成
 
@@ -99,7 +146,7 @@ testsディレクトリで`nosetests test_pattern_list_to_vertical_010.py`を実
 
 `def is_e_start(lcd):`
 
-`def is_not_nan(x):`
+`def is_not_nan(val):`
 
 `def set_new_price(tbl_merged, x_price):`
 

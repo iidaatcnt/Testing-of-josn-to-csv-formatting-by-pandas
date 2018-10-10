@@ -18,7 +18,7 @@ from functios import pattern_list_to_vertical_010
 
 class TestFillnanMst:
     """
-    032のfillnan_mst()関数をテストするために共通に必要な値や
+    010のpattern_list_to_vertical()関数をテストするために共通に必要な値や
     dfを設定しておく
     """
 
