@@ -338,3 +338,39 @@ pep8: E402 「モジュールが一番上に来てない」という注意が出
 pylint: E0401, C0413, R0201, W0611といった注意が出ている
 
 -> functiosディレクトリにあるpyファイルをテストするためにパスを設定しているのが原因だったり、テストコードであることが原因だったりするようなので、無視
+
+
+
+
+## 8. 040の作成
+
+### `dfm_to_records_040.py`を作成
+
+040_dfmをrecordsに変換する関数を作成
+
+主関数
+
+`def dfm_to_records(dfm):`
+
+必要な入力データ
+
+- recordsに変換するdfm
+
+`dfm = pd.DataFrame(..)`
+
+必要な内部関数
+
+- 無し
+
+### pep8とpylintの構文チェック
+
+pep8: 問題なし
+
+pylint: 問題なし
+
+### noseテスト
+
+testsディレクトリで`nosetests dfm_to_records_040.py`を実行
+
+- `test_dfm_to_records()`: 14行3列のdfmでdfm_to_records()をテスト
+    - 問題なし
