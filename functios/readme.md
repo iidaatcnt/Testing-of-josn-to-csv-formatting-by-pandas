@@ -370,7 +370,116 @@ pylint: 問題なし
 
 ### noseテスト
 
-testsディレクトリで`nosetests dfm_to_records_040.py`を実行
+testsディレクトリで`nosetests test_dfm_to_records_040.py`を実行
 
 - `test_dfm_to_records()`: 14行3列のdfmでdfm_to_records()をテスト
+    - 問題なし
+
+
+
+
+
+
+
+## (9, 10)で使用する関数をまとめた`utils.py`を作成
+
+### `add_to_end_050.py`を作成
+
+050_行毎にend列にadd列の日数を加算してend列を更新する関数を作成
+
+主関数
+
+`def transform_object(added_dfm, date_columns):`
+
+必要な入力データ
+
+- 変換するdfm
+
+`added_dfm = pd.DataFrame(..)`
+
+- 変換する列のリストdate_columns
+
+`date_columns = [list]`
+
+必要な内部関数
+
+- 無し
+
+### pep8とpylintの構文チェック
+
+pep8: lambda式ではなくdefステートメントを使用しなさい、という警告（defステートメントを作るほどでもないと判断したため、無視しました）
+
+pylint: 問題なし
+
+
+## 9. 050の作成
+
+### `add_to_end_050.py`を作成
+
+050_行毎にend列にadd列の日数を加算してend列を更新する関数を作成
+
+主関数
+
+`def add_to_end(dfm):`
+
+必要な入力データ
+
+- 変換するdfm
+
+`dfm = pd.DataFrame(..)`
+
+必要な内部関数
+
+- `utils.py`内の`
+    - `def transform_datetime(df, date_columns):`
+    - `def transform_object(added_df, date_columns):`
+
+### pep8とpylintの構文チェック
+
+pep8: 問題なし
+
+pylint: 問題なし
+
+### noseテスト
+
+testsディレクトリで`nosetests test_add_to_end_050.py`を実行
+
+- `test_add_to_end()`: add = {-1, 0, 1~1000}といったdfmでadd_to_end()をテスト
+    - 問題なし
+
+## 10. 060の作成
+
+### `is_between_060.py`を作成
+
+060_日付fireがstartとendの範囲内にあるか無いか真偽値を末尾にchkという列に追加する関数を作成
+
+- fireがstart, endの境界上にある場合、「ある」と判定
+
+主関数
+
+`def is_between(dfm):`
+
+必要な入力データ
+
+- 変換するdfm
+
+`dfm = pd.DataFrame(..)`
+
+必要な内部関数
+
+- `utils.py`内の`
+    - `def transform_datetime(df, date_columns):`
+    - `def transform_object(added_df, date_columns):`
+
+### pep8とpylintの構文チェック
+
+pep8: 問題なし
+
+pylint: 問題なし
+
+### noseテスト
+
+testsディレクトリで`nosetests test_is_between_060.py`を実行
+
+- `test_is_between()`: fireがstartより前、endより後、双方の境界上、範囲内、といったdfmでis_between()をテスト
     - 問題なし
